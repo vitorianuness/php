@@ -1,0 +1,22 @@
+<?php
+
+/*Entrar com um número e informar se ele é
+divisível por 10, por 5, por 2 ou se não é
+divisível por nenhum destes*/
+
+$numero=20;
+
+if ($numero%10==0) {
+echo "divisivel por 10".PHP_EOL;
+}else{
+    echo "não é divisivel por 10".PHP_EOL;}
+
+    if ($numero%2==0) {
+        echo "divisivel por 2".PHP_EOL;
+        }else{
+            echo "não é divisivel por 2".PHP_EOL;}
+            if ($numero%5==0) {
+                echo "divisivel por 5".PHP_EOL;
+                }else{
+                    echo "não é divisivel por 5".PHP_EOL;}
+                        
